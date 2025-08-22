@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5702c8f3e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/ABHISHEK.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a> </li>
+
+                    <li> <a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="animated-text">
+                    <span>Full Stack Developer</span>
+                    <span>Software Developer</span>
+                    <span>MERN Stack Developer</span>
+                    <span>Web Developer</span>
+                </p>
+
+                <h1>Hi, I'm <span>Abhishek</span> <br>from Bengaluru,India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------about----->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an MCA fresher with strong MERN stack development skills and a passion for building
+                        scalable, user-friendly web applications. With a solid foundation in Java, JavaScript, React.js,
+                        Node.js, MongoDB, MySQL, HTML, and CSS, I enjoy turning ideas into efficient digital solutions.
+                        Having solved 300+ coding problems, I bring strong problem-solving abilities and a continuous
+                        learning mindset. I am driven by curiosity, adaptability, and a commitment to delivering clean,
+                        impactful software.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Html5,CSS3,JavaScript,Git,Github</span><br>Basics</li>
+                            <li><span>ReactJS,NextJS,Redux,Tailwind</span><br>Frontend</li>
+                            <li><span>NodeJs,ExpressJS</span><br>Backend</li>
+                            <li><span>MongoDB</span><br>Database</li>
+                            <li><span>Data Structures and Algorithms</span><br>problem-solving</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb 2025 - June 2025</span><br>
+                                Mern stack internship<br>Scontinent technology,Bengaluru</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Dec 2023-July 2025</span><br>Master of Computer Application<br>CGPA:8.9<br>Sri
+                                Siddhartha Institute of Technology</li>
+                            <li><span>May 2020- July 2023 </span><br>Bachelor of Computer Application<<br>
+                                    CGPA:7.9<br>Sri Siddaganga Institue of Technology</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-----------services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Developer</h2>
+                    <p>As a Web Developer, I design and build responsive, user-friendly, and high-performing websites
+                        that blend creativity with functionality. My goal is to deliver clean, modern, and scalable
+                        solutions that help businesses and individuals establish a strong online presence..</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>As a Frontend Developer, I create visually appealing and interactive websites that provide smooth
+                        and engaging user experiences. I focus on building responsive, modern, and accessible interfaces
+                        that bring ideas to life and make digital platforms more user-friendly.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Backend Developer</h2>
+                    <p>As a Backend Developer, I build secure, reliable, and scalable server-side systems that ensure
+                        websites and applications run smoothly. I focus on creating strong foundations with efficient
+                        data handling, seamless functionality, and optimized performance to support great user
+                        experiences..</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Courskill-lms</h3>
+                        <p>A full-stack LMS built with the MERN stack to help students enhance job readiness. It
+                            features interactive dashboards, secure login with role-based access, course and module
+                            management, and scalable data storage using MongoDB. Designed for a smooth and user-friendly
+                            learning experience.
+
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Justgrabs-food delivery webapp</h3>
+                        <p>A MERN stack–based food delivery platform with restaurant listings, order placement, live
+                            tracking, and secure data management. Designed with a responsive UI for a seamless user
+                            experience across devices.
+
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+              
+
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-------contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me </h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>abhisheknagraj2001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 7204862648</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abhishek-mk-8a965a1b8/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Abhisheknagraj2001"><i class="fa-brands fa-github"></i></a>
+                        
+                        <a href="https://www.geeksforgeeks.org/user/abhisheknanjme/"><i class="fa-solid fa-id-badge"></i></a>
+
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+    ,
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwwRJUH2BmF-UXNslxaYvgPfyRLAUIGhOCUhtVFjVhuqmEEjkHD9EPxMbfJZnjqlZkS/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
